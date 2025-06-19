@@ -1,6 +1,6 @@
 # Basketball Game Mechanics Simulator
 
-A web-based basketball simulation app that allows users to customize game rules and visualize the impact on gameplay.
+A web-based simulation app that allows users to customize basketball game rules and visualize the impact on gameplay dynamics.
 
 ## Features
 
@@ -10,7 +10,14 @@ A web-based basketball simulation app that allows users to customize game rules 
 - **Rule Impact Analysis**: Understand how rule changes affect pace, scoring, and other aspects of the game
 - **Preset Management**: Save and load custom rule configurations
 
-## Usage
+## Key Customizable Rules
+
+- **Scoring**: Modify point values for 3-pointers, 2-pointers, and free throws
+- **Time Rules**: Adjust quarter length and shot clock duration
+- **Team Settings**: Change the number of players per team and foul-out limits
+- **Advanced Rules**: Toggle bonus rules, three-second violations, and possession rules
+
+## How to Use
 
 1. Adjust game rules using the controls in the left panel
 2. Click "Run Simulation" to start the game
@@ -19,25 +26,37 @@ A web-based basketball simulation app that allows users to customize game rules 
 5. Use the simulation speed slider to control playback speed
 6. Save your favorite rule sets as presets for future use
 
-## Customizable Rules
+## Simulation Insights
 
-- **Scoring**: Modify point values for 3-pointers, 2-pointers, and free throws
-- **Time Rules**: Adjust quarter length and shot clock duration
-- **Team Settings**: Change the number of players per team and foul-out limits
-- **Advanced Rules**: Toggle bonus rules, three-second violations, and more
+The simulation engine analyzes how rule changes impact:
 
-## Tech Stack
+- Pace of play
+- Scoring frequency
+- Game length
+- Player fatigue
+- Comeback potential
+
+## Built With
 
 - HTML5, CSS3 (with Tailwind CSS)
 - Vanilla JavaScript
 - SVG for court visualization
 
-## Development
+## Try It Out
 
-This is a client-side application with no server dependencies. To run locally:
+You can experiment with the Basketball Game Mechanics Simulator by:
 
-1. Clone the repository
-2. Open `index.html` in your browser
+1. Cloning this repository
+2. Opening `index.html` in your browser
+3. No build steps or dependencies required!
+
+## Educational Value
+
+This simulator is perfect for:
+- Basketball coaches exploring strategic adjustments
+- League officials evaluating potential rule changes
+- Students learning about game theory and simulation
+- Basketball enthusiasts curious about "what if" rule scenarios
 
 ## License
 
